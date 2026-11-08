@@ -1,0 +1,4 @@
+version: 1
+accept:
+  - rule: behavior-spelling
+    reason: Written for current swamp releases, which load the behavior spelling.
