@@ -173,6 +173,13 @@ async function trace(args: TraceArgs, context: BehaviorContext) {
 export const behavior = {
   type: "@liywjl/pr-delivery",
   version: "2026.11.09.1",
+  upgrades: [
+    {
+      toVersion: "2026.11.09.1",
+      description: "Version bump, no schema changes",
+      upgradeAttributes: (old: Record<string, unknown>) => old,
+    },
+  ],
   globalArguments: GlobalArgsSchema,
   resources: {
     delivery: {
