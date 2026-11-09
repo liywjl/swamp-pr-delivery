@@ -169,9 +169,10 @@ async function trace(args: TraceArgs, context: BehaviorContext) {
   return { dataHandles };
 }
 
+/** Traces pull requests from review to each deployed environment. */
 export const behavior = {
   type: "@liywjl/pr-delivery",
-  version: "2026.11.08.1",
+  version: "2026.11.09.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     delivery: {

@@ -1,6 +1,6 @@
 manifestVersion: 1
 name: "@liywjl/pr-delivery"
-version: "2026.11.08.1"
+version: "2026.11.09.1"
 license: MIT
 description: "Where is this pull request's code really? Follows a PR through stacked branches to the default branch and each deploy environment, explains in plain words what blocks an open one, and spots stranded PRs that look merged but never shipped. Read-only, no AI model. Reads GitHub through the gh CLI or GitHub's MCP server."
 repository: "https://github.com/liywjl/swamp-pr-delivery"
